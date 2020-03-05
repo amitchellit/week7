@@ -1,0 +1,237 @@
+body{ margin:0;}
+
+
+
+nav {
+    background-color: grey;
+    padding:5px;
+     border :1px solid yellow;
+    border-radius: 25px;
+    
+}
+
+
+nav ul li  {
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding :15px;
+}
+
+
+li  {
+    list-style-type: none;}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+
+aside ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+nav ul li:hover { background-color : #8E8E8E;}
+
+header {
+    background-image: url(../images/carrots.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:200px;
+    color:darkorange;
+    border : 1px solid orange;
+    border-radius: 25px;
+   
+         
+}
+/*
+footer {
+   clear: both;
+    border: 2px solid #ef9c00;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey ;
+    border-radius: 25px;
+    text-align: center;}
+*/
+
+footer {
+   clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey ;
+    
+    text-align: center;}
+   
+ footer ul li  {
+    list-style-type: none;
+    color :white;
+    display: inline;
+    padding :15px;
+     
+}  
+   
+
+
+body {
+    font-family: Verdana;
+    background-color: black;
+    color: white;
+}
+
+nav ul {
+    text-align :center;
+    font-size :1.2em;
+   
+}
+
+
+
+#active {
+   background-color: darkseagreen;
+   pointer-events: none;
+   cursor: default;
+  
+}
+
+#content {
+     
+            float: left; 
+            width: 80%;
+            margin-right:   10px;
+            border: 2px solid green;
+            border-radius: 25px;
+             
+               
+             }
+
+
+
+
+aside ul li {
+   
+    list-style-type: none; 
+}
+
+p {
+    
+    text-align: justify;
+}
+
+.showimages {
+    float:right;
+    border: 3px solid white;
+    margin:0 10px 20px 10px;
+}
+
+
+
+
+.backgroundImageC {
+    
+     background-image: url(../images/carrots.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: black;
+     border: 3px solid black;
+     margin:2px;
+}
+
+
+.backgroundImageB {
+  background-image: url(../images/bacon.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: black;
+    border: 3px solid black;
+     margin:2px;
+   
+    
+}
+
+.backgroundImageE {
+    background-image: url(../images/eggs.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:black;
+     border: 3px solid black;
+     margin:2px;
+}
+
+.course {
+    text-align: center;
+    border: 5px solid white;
+    padding:10px;
+}
+
+aside {
+    border:1px solid red;
+    width: 18%;
+    float : right;
+    border-radius: 25px;
+}
+
+.logodisplay {
+    padding-left: 50px;
+    float:left;
+    margin-right:10px;
+    width:110px;
+    height: 100px;
+    
+}
+
+
+
+.col_article {
+    column-count: 3;
+    column-gap: 35px;
+    column-rule: 2px solid red; }
+
+
+
+.chocimage {
+    float:left;
+    height:100px;
+    width: 100px;
+    margin-right:10px;
+   
+}
+
+
+
+
+
+#bigPic {
+    width: 70%;
+    border:3px solid grey;
+    border-style: ridge;
+}
+
+.manager {
+    margin-top: 50px;
+    padding-top:  50px;
+    height :500px
+}
+
+.video {
+    width:50%;
+    float:left;
+}
+
+.clear {
+    clear:both;
+}
